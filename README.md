@@ -1,12 +1,28 @@
-# React + Vite
+## Fresh Mart 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FreshMart is an e-commerce platform which is a single page application which is built using React JS with ES6 features. The app has a cart function which allows users to quantisize their products into their cart. 
+The app is beautifully designed with modern UI to aattract customers and a better User Experience for their shopping. The products in this project are categorised into two: **1. Packaged 2. Natural**. There is also a calender function added to help users to order the natural projects a few days before to help the availability of stock. 
 
-Currently, two official plugins are available:
+## Tech Stack Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app is mainly built on **React JS** with a **styling of CSS** and **a fake JSON server** for practice to load the items into the website. The package json contains the detailed dependencies used in this project like date-picker, toastify, react-router-dom.
 
-## Expanding the ESLint configuration
+## Set-up Instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Clone the repository
+ ```git clone https://github.com/AsifAlthaf/FSD-PROJECT.git```
+* Navigate to the project path 
+ ```cd project```
+* Install Dependencies
+   ``` npm install react-router-dom date-picker react-toastify```
+* Run the project
+   ```npm run dev```
+   
+## Expanding the project
+
+Feel free to fork the repo and add new features. All the development for the project is welcomed and appreciated. In future will definitely try to upgrade this project to user authentication and payment gateways and even more products ofcourse :)
+
+### Live Link
+
+The project has been deployed onto vercel and here is the live link 
+# https://fsd-freshmart.vercel.app/
